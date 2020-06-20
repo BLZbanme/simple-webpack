@@ -1,3 +1,8 @@
-import { greeting } from "./greeting.js";
-
-document.write(greeting("jane"));
+var people = {
+    name: "dujie",
+    sayname() {
+        return () => {
+            this.name
+        }
+    }
+}

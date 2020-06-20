@@ -11,14 +11,13 @@
             require('')
         })({'': function (require, module, exports) { "use strict";
 
-var _greeting = require("./greeting.js");
+var people = {
+  name: "",
+  sayname: function sayname() {
+    var _this = this;
 
-document.write((0, _greeting.greeting)("jane")); },'./greeting.js': function (require, module, exports) { "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.greeting = greeting;
-function greeting(name) {
-  return "hello" + name;
-} },})
+    return function () {
+      _this.name;
+    };
+  }
+}; },})
